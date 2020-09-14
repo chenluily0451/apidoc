@@ -44,3 +44,67 @@
  *     }
  *
  */
+
+
+/**
+ * @api {} 公用状态码200成功
+ * @apiName 公用成功
+ * @apiGroup common
+
+ * @apiSuccess {Number} CODE 200
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       "success": true,
+ *       "code": "200",
+ *       "message": "成功"
+ *     }
+ *
+ */
+
+/**
+ * @api {} 公用状态码200失败
+ * @apiName 公用失败
+ * @apiGroup common
+ * @apiSuccess {Number} CODE 200
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       "success": false,
+ *       "code": "200",
+ *       "message": "出错信息"
+ *     }
+ *
+ */
+
+/**
+ * @api {} 公用状态码500
+ * @apiName 服务器出错
+ * @apiGroup common
+ * @apiSuccess {Number} CODE 500
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       "success": false,
+ *       "code": "500",
+ *       "message": "服务器出错信息"
+ *     }
+ */
+
+/**
+ * @api {} 公用状态码401
+ * @apiName 登录超时
+ * @apiGroup common
+ * @apiSuccess {Number} CODE 401
+ *
+ * @apiSuccessExample Success-Response:
+ *     HTTP/1.1 200 OK
+ *     {
+ *       "success": false,
+ *       "code": "401",
+ *       "message": "登录信息超时"
+ *     }
+ */
